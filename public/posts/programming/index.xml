@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Sebastian D  🇨🇴 </title>
+    <title>Programming on Abulfaz&#39;s website</title>
     <link>http://localhost:1313/posts/programming/</link>
-    <description>Recent content in Programming on Sebastian D  🇨🇴 </description>
+    <description>Recent content in Programming on Abulfaz&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/programming/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -14,16 +14,6 @@
       <guid>http://localhost:1313/posts/programming/pycon_co_2023/</guid>
       <description>Computer Programming for Everybody. El sueño de que cada persona pudiera programar su propia computadora impulso el desarrollo Python. Construyamos el próximo proyecto de alto impacto.
 Conectando con la comunidad de ROS Proyecto de traducción de documentación de ROS 2 Grupo de usuarios de ROS en español discourse The Next Computer Programming for Everybody </description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/posts/programming/linux/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/programming/linux/</guid>
-      <description>How I Learned To Stop Worrying And Love linux Linux is a powerful tool, and OS where many programmers and developers make it their home for building their application. As all things it has a learning curve and the fact that there are many variants (or Distribution) does not help.
-WSL When starting from a Windows machine wsl is the easiest and most straigh forward way to start using linux.</description>
     </item>
     
     <item>

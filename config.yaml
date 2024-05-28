@@ -1,7 +1,7 @@
 baseURL: "https://blfzz.github.io/"
 
 languageCode: en-us
-title: "Sebastian D  🇨🇴 "
+title: "Abulfaz's website"
 
 # Use Hugo modules to add theme
 module:
@@ -21,11 +21,14 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    languageName: en
     weight: 1
-#  es:
-#    languageName: Spanish
-#    weight: 2
+  az:
+    languageName: az
+    weight: 2
+
+# default language for the content
+defaultContentLanguage: en  
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -55,22 +58,24 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background3.jpg
+  background: /images/site/background.jpg
   #background: /images/site/Simulation.gif
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   # It will default to the theme logos if not provided.
   logo:
-    main: /images/site/logo.svg
-    inverted: /images/site/inverted-logo.svg
-    favicon: /images/site/logo.svg
+    main: /images/site/aze.png
+    inverted: /images/site/aze.png
+    favicon: /images/site/aze.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/blfzz/blfzz.github.io/
   # Default branch of your Git repo
   gitBranch: gh-pages
-
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 6
   # Configure various features of this theme
   features:
     # Enable and configure portfolio
@@ -79,22 +84,40 @@ params:
     # Enable and configure blog posts
     blog:
       enable: true
-      showAuthor: truen
+      showAuthor: true
       shareButtons:
         facebook: true
         twitter: true
         linkedin: true
     # Enable & configure "Notes" features
     notes:
-      enable: false
-
+      enable: true
+    # Enable dark theme
+    darkMode:
+      enable: true
     # specify whether you want to show Table of Contents in reading page
     toc: 
       enable: true
+          # Show tags under the post title
+    tags:
+      enable: true
+      on_card: true
+          # Specify whether to show flag in the language selector. Default is true.
+    flags:
+      enable: true
+      # # If you want to use different country flag for a language, specify them here.
+      # flagOverwrites:
+      #   - languageCode: en
+      #     countryCode: us
     # Enable to use `video-player` shortcode
     videoPlayer:
       enable: true
-  # Provide footer configuration.
+            # Enable reading time support in post cards and in post pages
+    readingTime:
+      enable: true
+    pagination:
+       maxPostsPerPage: 12
+    # Provide footer configuration.
   footer:
     enable: true
     # You can provide your custom footer template using this option.

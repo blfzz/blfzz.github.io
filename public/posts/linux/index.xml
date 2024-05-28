@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Abulfaz&#39;s website</title>
+    <link>http://localhost:1313/posts/linux/</link>
+    <description>Recent content in Linux on Abulfaz&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Ən çox istifadə olunan Linux komandalar hansılardır? </title>
+      <link>http://localhost:1313/posts/linux/linux-komandalar/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/linux/linux-komandalar/</guid>
+      <description>Uname - təklikdə işlədildikdə əməliyyat sisteminin adını verir (Linux), a parametri ilə işləndikdə isə əməliyyat sistemi haqqında məlumat verir: Linux kali 6.6.15-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.6.15-2kali1 (2024-04-09) x86_64 GNU/Linux Pwd (Print Working Directory) – Hal hazırda hansı qovluqda olduğumuzu göstərir. Ls (List source) – Bir qovluq daxilində olan hər fayl və qovluğu list şəklində göstərir. Ls – li ətraflı məlumat üçündür. Əgər orada d yazılıbsa qovluq, L yazılıbsa link, - (tire) yazılıbsa adi fayldır.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

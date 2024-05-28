@@ -11,47 +11,71 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Colombian National University.
+    name: Cyberpoint LLC.
     #url: "https://www.example.com"
-    location: Bogotá
+    logo: /images/sections/experiences/cyberpoint.jpg
+    location: Baku, Nizami district, Heydar Aliyev Avenue 189 B
     # company overview
-    overview: While coursing my studies I engaged with the university in activities working as  
+    # overview: something
   positions:
-  - designation: Numerical Methods Teaching Assitent
-    start: Feb 2020
-    end: Jun 2020
+  - designation: SOC L2 (Threat Detection Engineer)
+    start: Apr 2024
+    end: false
     responsibilities:
-    - help the professor with the development, implementation and presentation of representative examples of equation solvers, using mathematical software tools such as MATLAB. 
-  - designation: Par Lider
-    start: Feb 2019
-    end: Jun 2019
+    - Written detection rules in SIEM and XDR for optimization and performance in SOC environment
+    - Written Incident Response playbooks and scenarios
+    - Conduct in-depth analysis of security events and incidents using advanced threat detection techniques and tools
+    - Work closely with other security teams, including SOC L1 analysts, vulnerability management, and threat intelligence teams, to enhance threat detection and response capabilities.
+    - Perform proactive threat hunting to identify hidden threats and vulnerabilities within the environment, leveraging threat intelligence and behavioral analysis.
+ 
+  - designation: SOC Monitoring Specialist
+    start: Sep 2023
+    end: Apr 2024
     responsibilities:
-    - Accompany and support students in the area of physics specifically in the subject mechanics fundamentals 
+    - Assist in the deployment of new security tools and technologies, providing technical expertise and support during the implementation process
+    - Oversee and maintain security monitoring tools and systems, ensuring they are up-to-date, properly configured, and effectively integrated with other security infrastructure
+    - Utilize advanced analytical techniques and tools to identify the root cause of incidents, assess their impact, and recommend remediation steps.
+
+  - designation: Junior SOC Monitoring Specialist
+    start: Jul 2022
+    end: Sep 2023
+    responsibilities:
+    - Continuously monitor security information and event management (SIEM) systems and other security tools to identify and respond to potential security incidents in real-time
+    - Analyze security alerts, email analysis, suspicious activity and determine the severity and potential impact of the incident
+    - Escalate incidents to SOC L2 analysts or relevant teams for further investigation and resolution when necessary  
+
 - company:
-    name: Kumon.
+    name: Prosol CJSC.
     #url: "https://www.example.com"
-    location: Bogotá
-    overview: 
+    logo: /images/sections/experiences/prosol.jpg
+    location: Baku, 90A Nizami St, Baku, Azerbaijan
+    overview: Intern
   positions:
-  - designation: Center Assistant
-    start: Augst 2019 
-    end: Dec 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Junior Penetration Tester
+    start: Jun 2022
+    end: Jul 2022
     responsibilities:
-    - Help students learn english and math
+    - Document and report findings in a clear and structured manner, providing detailed information on vulnerabilities discovered and potential impacts
+    - Perform vulnerability assessments using automated scanning tools and manual techniques to identify and evaluate security vulnerabilities in systems and applications (such as Burpsuite, OWASP Zap, Nmap, and etc.)
+    - Learned work flow of penetration testing with the help of Portswigger and INE platform
+  - designation: SOC Analyst
+    start: Apr 2022
+    end: Jun 2022
+    responsibilities:
+    - Created SOC environment using Wazuh, The Hive, Cortex, Shuffle, ELK Stack, and etc
+    - Learned work flow of blue team with the help of letsdefend and INE platform
+
+
     
-#- company:
-#    name: Intern Counting Company (ICC).
-#    url: "https://www.example.com"
-#    location: Intern Land
-#    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-#  positions:
-#  - designation: Intern
-#    start: Jun 2015
-#    end: Jan 2016
-#    responsibilities:
-#    - Count lost of interns.
-#    - Count more interns.
-#    - Count me as an intern.
+- company:
+    name: State Agency for Public Service and Social Innovations under the President of Azerbaijan.
+    #url: "https://www.example.com"
+    logo: /images/sections/experiences/ASAN.jpg
+    location: Baku, Bakikhanov district, Sulh street, 197
+    overview: Intern
+  positions:
+  - designation: ASAN Volunteers
+    start: Jan 2018
+    end: May 2018
+    responsibilities:
+    - Help citizen for some problems and participate in many ASAN volunteer activities
