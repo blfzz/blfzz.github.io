@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Colombian National University.
+    #url: "https://www.example.com"
+    location: Bogotá
+    # company overview
+    overview: While coursing my studies I engaged with the university in activities working as  
+  positions:
+  - designation: Numerical Methods Teaching Assitent
+    start: Feb 2020
+    end: Jun 2020
+    responsibilities:
+    - help the professor with the development, implementation and presentation of representative examples of equation solvers, using mathematical software tools such as MATLAB. 
+  - designation: Par Lider
+    start: Feb 2019
+    end: Jun 2019
+    responsibilities:
+    - Accompany and support students in the area of physics specifically in the subject mechanics fundamentals 
+- company:
+    name: Kumon.
+    #url: "https://www.example.com"
+    location: Bogotá
+    overview: 
+  positions:
+  - designation: Center Assistant
+    start: Augst 2019 
+    end: Dec 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Help students learn english and math
+    
+#- company:
+#    name: Intern Counting Company (ICC).
+#    url: "https://www.example.com"
+#    location: Intern Land
+#    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#  positions:
+#  - designation: Intern
+#    start: Jun 2015
+#    end: Jan 2016
+#    responsibilities:
+#    - Count lost of interns.
+#    - Count more interns.
+#    - Count me as an intern.
