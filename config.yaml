@@ -70,9 +70,9 @@ params:
     favicon: /images/site/aze.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/blfzz/blfzz.github.io/
+  # gitRepo: https://github.com/blfzz/blfzz.github.io/
   # Default branch of your Git repo
-  gitBranch: gh-pages
+  # gitBranch: gh-pages
   # Configure the number of section title visible in the top navbar
   topNavbar:
     maxVisibleSections: 6
@@ -89,6 +89,20 @@ params:
         facebook: true
         twitter: true
         linkedin: true
+    comment:
+      enable: false
+      services:
+        giscus:
+          repo: your-repo/name
+          repoID: your-repo-id
+          category: your-category
+          categoryID: your-category-id
+          theme: light
+          map: url
+          reaction: 1
+          metadata: 0
+          inputPosition: bottom
+          crossOrigin: anonymous
     # Enable & configure "Notes" features
     notes:
       enable: true
