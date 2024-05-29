@@ -1,7 +1,7 @@
 baseURL: "https://blfzz.github.io/"
 
 languageCode: en-us
-title: "Abulfaz's website"
+title: "blfz"
 
 # Use Hugo modules to add theme
 module:
@@ -111,7 +111,7 @@ params:
       enable: true
     # specify whether you want to show Table of Contents in reading page
     toc: 
-      enable: true
+      enable: false
           # Show tags under the post title
     tags:
       enable: true

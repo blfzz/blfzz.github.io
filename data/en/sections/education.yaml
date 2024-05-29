@@ -68,7 +68,7 @@ degrees:
   institution:
     name: Baku Engineering University
     url: "https://beu.edu.az/en"
-    logo: /images/sections/education/beu.png
+    logo: /images/sections/education/beu.svg
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/university.jpg
   grade: #(optional)

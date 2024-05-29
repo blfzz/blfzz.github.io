@@ -1,0 +1,16 @@
+# some information about you
+name: "Əbülfəz İsmayılov"
+nickname: "Əbülfəz"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Salam, mən   "
+image: "images/author/Abulfaz.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ebulfezismayil@gmail.com"
+  
+# some summary about what you do
+summary:
+  - Saytıma xoş gəlmisən!
+  - Mən Kibertəhlükəsizlik üzrə mütəxəssisəm
+  - Purple Teaming-lə məşğulam 
+  - Müxtəlif və dəyişkən proyektlərdə çalışmağı sevirəm 
