@@ -1,0 +1,20 @@
+# some information about you
+name: "Abulfaz Ismayilov"
+nickname: "Abulfaz"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/Abulfaz.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ebulfezismayil@gmail.com"
+  # phone: "+0123456789"
+  github: blfzz
+  linkedin: abulfaz-ismayilov-087216139
+  # researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - Welcome to my website
+  - I am a Cybersecurity Specialist
+  - Enthusiast Purple Teaming 
+  - Love working in challenging projects

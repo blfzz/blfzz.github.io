@@ -1,0 +1,80 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: SIEM
+  filter: "siem"
+- name: Language
+  filter: "language"
+- name: XDR
+  filter: "xdr"
+- name: Automation
+  filter: "automation"
+- name: Operating System
+  filter: "os"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Splunk
+  logo: /images/sections/skills/splunk.png
+  summary: "Proficient in leveraging Splunk for comprehensive data analysis, real-time monitoring, and incident response, ensuring optimal security posture and operational efficiency. Experienced in creating advanced dashboards, queries, and alerts to provide actionable insights and support decision-making processes."
+  url: "https://www.splunk.com/en_us/"
+  categories: ["siem"]
+
+- name: ELK Stack
+  logo: /images/sections/skills/elasticsearch.png
+  summary: "Skilled in utilizing the ELK Stack (Elasticsearch, Logstash, and Kibana) for robust data collection, analysis, and visualization to enhance system monitoring and security. Experienced in configuring and managing ELK components to create dynamic dashboards, perform complex searches, and generate insightful reports for informed decision-making."
+  url: "https://www.elastic.co/"
+  categories: ["siem"]
+
+- name: Qradar
+  logo: /images/sections/skills/qradar.png
+  summary: "Proficient in using QRadar for advanced threat detection, security incident analysis, and compliance monitoring. Experienced in configuring and tuning QRadar to create customized dashboards, correlation rules, and alerts, providing comprehensive visibility and actionable insights into security events."
+  url: "https://www.ibm.com/qradar"
+  categories: ["siem"]
+
+- name: Crypttech - CSIEM
+  logo: /images/sections/skills/csiem.png
+  summary: "Experienced in deploying and managing Crypttech CSIEM for real-time security monitoring, threat detection, and incident response. Skilled in configuring CSIEM to develop custom dashboards, correlation rules, and alerts, enabling comprehensive analysis and proactive management of security events."
+  url: "https://www.crypttech.com/en/"
+  categories: ["siem"]
+
+- name: CrowdStrike XDR
+  logo: /images/sections/skills/crowdstrike.png
+  summary: "Proficient in utilizing CrowdStrike XDR for extended detection and response, providing comprehensive threat visibility and accelerated incident response. Experienced in configuring and managing CrowdStrike XDR to integrate multiple data sources, create detailed security analytics, and automate response actions to enhance overall cybersecurity posture."
+  url: "https://www.crowdstrike.com/about-us/"
+  categories: ["xdr"]
+
+- name: Cortex XDR
+  logo: /images/sections/skills/cortex.png
+  summary: "Skilled in leveraging Cortex XDR for advanced threat detection, investigation, and response across endpoints, networks, and cloud environments. Proficient in configuring Cortex XDR to correlate and analyze security data from diverse sources, enabling proactive threat hunting and rapid incident response to enhance overall cybersecurity resilience."
+  url: "https://www.paloaltonetworks.com/cortex/cortex-xdr"
+  categories: ["xdr"]
+
+- name: XSOAR
+  logo: /images/sections/skills/xsoar.png
+  summary: "Experienced in utilizing XSOAR (formerly Demisto) for orchestrating and automating security operations, incident response, and threat intelligence processes. Proficient in configuring XSOAR playbooks and integrations to streamline workflows, enhance collaboration between security teams, and improve overall incident response efficiency."
+  url: "https://www.paloaltonetworks.com/cortex/cortex-xsoar"
+  categories: ["automation"]
+
+- name: JavaScript 
+  logo: /images/sections/skills/js.svg
+  summary: "Proficient in JavaScript for developing dynamic and interactive web applications, leveraging frameworks such as React.js and Node.js. Experienced in writing clean, efficient code to create responsive user interfaces, implement client-side functionalities, and manage server-side operations, ensuring optimal performance and scalability."
+  categories: ["language"]
+
+- name: Linux 
+  logo: /images/sections/skills/linux.png
+  summary: "Skilled in Linux system administration, including installation, configuration, and troubleshooting across various distributions such as Ubuntu, CentOS, and Red Hat. Proficient in shell scripting, package management, user management, and security hardening, ensuring stable and secure operation of Linux-based environments."
+  categories: ["os"]

@@ -1,0 +1,105 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Threat Detection Engineer
+# your company information
+company:
+  name: Cyberpoint.
+  url: "https://cyberpoint.az/"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a cybersecurity specialist with three years of experience in threat analysis, incident response, development, and monitoring. I have successfully conducted security audits, managed security breaches, and developed robust security protocols to protect organizational assets. My expertise includes vulnerability assessment, risk management, and compliance with industry standards. I hold certifications such as eWPT, CRTO, IBM SOC Analyst, Tryhackme, and etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "ebulfezismayil@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/blfzz"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/abulfaz-ismayilov-087216139/"
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# - name: Mastadon
+#   icon: "fab fa-mastodon"
+#   url: "#"
+#   rel: "me noopener"
+
+# - name: ResearchGate
+#   icon: "fab fa-researchgate"
+#   url: "https://www.researchgate.net/profile/john-doe"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+# resourceLinks:
+# - title: "My Resume"
+#   url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Certified Red Team Operator
+  url: "https://eu.badgr.com/public/assertions/TxR3lCwzRiaqRBszNcC0Rg"
+  badge: "https://api.eu.badgr.io/public/assertions/TxR3lCwzRiaqRBszNcC0Rg/image"
+
+- type: certification
+  name: eLearnSecurity Web Application Penetration Tester
+  url: "https://verified.elearnsecurity.com/certificates/fbdb1443-9760-4cb8-ba56-5779e386ef02"
+  badge: "https://assets.ine.com/certifications/badges/eWPT.png"
+  
+- type: certification
+  name: IBM Cybersecurity Analyst Professional Certificate
+  url: "https://coursera.org/share/943c215018ae8b468102314aa61a7f38"
+  badge: "https://images.credly.com/size/680x680/images/302577ff-91c7-44fe-a205-4bf57b067bbf/image.png"
+
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
